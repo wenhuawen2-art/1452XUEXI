@@ -27,14 +27,16 @@ async function completed(id){const blocks=await children(id);const checks=blocks
 function lessonBlocks(l){const img=site.replace(/\/?$/,'/')+'diagrams/day-'+String(l.number).padStart(3,'0')+'.png';return [
  para('课程编号 '+l.id+' ｜ 建议学习 '+l.minutes+' 分钟 ｜ '+l.track),
  {object:'block',type:'image',image:{type:'external',external:{url:img}}},
+ ...(l.studySteps?[heading('今天的 30—45 分钟怎么学'),...l.studySteps.map(([name,min])=>para(name+'｜约 '+min+' 分钟'))]:[]),
+ ...(l.readingAnchors?[heading('原书精读：私有原文书库'),para('原书完整文本不在公开网站或公开仓库。请从个人私有离线书库中检索下列章节；本页只放原创导读。'),...l.readingAnchors.flatMap(r=>[para(r.book+'｜'+r.section),para(r.note)])]:[]),
  heading('今天要学会'),para(l.goal),heading('先从生活场景开始'),para(l.lead),
  heading('概念与图解'),para(l.concept),para('容易踩的坑：'+l.pitfall),
  ...(l.deepDive?l.deepDive.sections.flatMap(s=>[heading(s[0]),para(s[1])]):[]),
- heading('跨书联系'),para(l.cross),heading('三道自测'),
+ heading('跨书联系'),para(l.cross),heading(l.quiz.length+'道自测'),
  ...l.quiz.map((q,i)=>({object:'block',type:'toggle',toggle:{rich_text:text((i+1)+'. '+q.q),children:[para('参考答案：'+q.a)]}})),
- heading('今天的练习'),para(l.exercise),heading('阅读出处与边界'),para(l.reading),para(l.sourceNote),
+ heading('今天的练习'),para(l.exercise),...(l.rubric?[para('达标标准：'+l.rubric)]:[]),heading('阅读出处与边界'),para(l.reading),para(l.sourceNote),...(l.externalReferences||[]).map(r=>para(r.title+'：'+r.url)),
  para('手机网页版：'+site.replace(/\/?$/,'/')+'?day='+l.number),
- {object:'block',type:'to_do',to_do:{rich_text:text('已完成：自测至少答对2题，并完成练习后勾选'),checked:false}}
+ {object:'block',type:'to_do',to_do:{rich_text:text('已完成：首周自测至少答对6/8题，并完成练习后勾选'),checked:false}}
 ]}
 async function ensureNav(pages){if(pages.some(x=>x.title==='八本书学习导航'))return;const body={parent:{page_id:parent},icon:{type:'emoji',emoji:'📚'},properties:{title:{type:'title',title:text('八本书学习导航')}},children:[heading('168天学习入口'),para('学习计划：24周，每周四天新课、一天案例、一天练习、一天复盘。完成勾选在每日子页面；手机网页本机记录不与此同步。'),para('手机网页：'+site),para('每天北京时间早上7点补检；未完成则保留当前课。GitHub 调度可能延迟。'),para('课程为原创教学转述，原书、个人笔记和访问凭据不在公开仓库。')]};await api('POST','/pages',body)}
 async function run(){
@@ -44,6 +46,7 @@ async function run(){
  if(coursePages.length){const p=coursePages[0];const result=await completed(p.id);p.complete=result.checked;p.last_edited_time=result.editedAt;p.blockCount=result.blocks.length;if(p.blockCount<15)throw Error('已有课程页面内容可能不完整：'+p.title+'；不会重复创建')}
  const today=dateBjt();const decision=selectNext(pages,today);console.log(JSON.stringify({today,decision}));
  if(decision.action!=='create')return;
+ if(decision.number>7)throw Error('第2—24周尚未扩写并逐章验收，停止自动推送以免把提纲当正式课程');
  await ensureNav(pages);
  if(pages.some(x=>x.title.includes(dayMarker(decision.number))))throw Error('同编号页面已存在，停止以避免重复');
  const l=lessons[decision.number-1];const title=today+'｜'+dayMarker(l.number)+'｜'+l.books+'｜'+l.title;

@@ -3,6 +3,7 @@ import {weekMeta} from './weeks.mjs';
 import {cards} from './cards.mjs';
 import {firstWeek,firstWeekQuizzes} from './first-week.mjs';
 import {caseAnswers} from './case-answers.mjs';
+import {expandedWeek1} from './expanded-week1.mjs';
 
 export const tracks=['认知与概率','企业与财报','竞争与成长','价值与估值','周期与市场','交易与风险'];
 const pad=n=>String(n).padStart(3,'0');
@@ -22,6 +23,23 @@ for(const week of weeks){
 }
 export {books,references,cards};
 for(const lesson of lessons) if(firstWeek[lesson.number]){lesson.deepDive=firstWeek[lesson.number];lesson.reading=firstWeek[lesson.number].reading;lesson.quiz=firstWeekQuizzes[lesson.number].map(([q,a])=>({q,a}));}
+for(const lesson of lessons) if(expandedWeek1[lesson.number]){
+ const e=expandedWeek1[lesson.number];
+ lesson.studySteps=e.studySteps;
+ lesson.readingAnchors=e.readingAnchors.map(([book,section,note])=>({book,section,note}));
+ lesson.reading=lesson.readingAnchors.map(r=>r.book+' '+r.section).join('；');
+ lesson.deepDive.sections.push(...e.explanations);
+ lesson.quiz.push(...e.quiz.map(([q,a])=>({q,a})));
+ lesson.exercise=e.exercise;
+ lesson.rubric=e.rubric;
+ lesson.status='首周扩展版：配合私有原文精读';
+}
+const weekOneReferences={
+ 1:[{title:'Investor.gov：股票代表企业所有权',url:'https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks'},{title:'伯克希尔1986年信：所有者收益与维护投入',url:'https://www.berkshirehathaway.com/letters/1986.html'}],
+ 3:[{title:'伯克希尔历年股东信原文',url:'https://www.berkshirehathaway.com/letters/letters.html'}],
+ 4:[{title:'SEC：投资前认识风险与资金需求',url:'https://www.sec.gov/investor/alerts/13thingstoknowaboutinvesting.pdf'}]
+};
+for(const lesson of lessons.slice(0,7))lesson.externalReferences=weekOneReferences[lesson.number]||[];
 for(const lesson of lessons) if(lesson.type==='案例'&&lesson.week>1){lesson.deepDive={sections:caseAnswers[lesson.week]};}
 export {lessons};
 export const catalog={version:'2026-10-21',tracks,books,references,weeks,lessons};
