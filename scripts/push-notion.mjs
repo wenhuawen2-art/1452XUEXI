@@ -29,6 +29,7 @@ function lessonBlocks(l){const img=site.replace(/\/?$/,'/')+'diagrams/day-'+Stri
  {object:'block',type:'image',image:{type:'external',external:{url:img}}},
  heading('今天要学会'),para(l.goal),heading('先从生活场景开始'),para(l.lead),
  heading('概念与图解'),para(l.concept),para('容易踩的坑：'+l.pitfall),
+ ...(l.deepDive?l.deepDive.sections.flatMap(s=>[heading(s[0]),para(s[1])]):[]),
  heading('跨书联系'),para(l.cross),heading('三道自测'),
  ...l.quiz.map((q,i)=>({object:'block',type:'toggle',toggle:{rich_text:text((i+1)+'. '+q.q),children:[para('参考答案：'+q.a)]}})),
  heading('今天的练习'),para(l.exercise),heading('阅读出处与边界'),para(l.reading),para(l.sourceNote),

@@ -1,0 +1,1 @@
+.write-box{display:block;width:100%;min-height:90px;margin:10px 0;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);resize:vertical;outline-color:var(--accent);font:inherit}.grade{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.grade .pill{font-size:13px}

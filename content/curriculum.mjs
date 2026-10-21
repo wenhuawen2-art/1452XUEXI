@@ -1,6 +1,7 @@
 import {books,references} from './books.mjs';
 import {weekMeta} from './weeks.mjs';
 import {cards} from './cards.mjs';
+import {firstWeek,firstWeekQuizzes} from './first-week.mjs';
 
 export const tracks=['认知与概率','企业与财报','竞争与成长','价值与估值','周期与市场','交易与风险'];
 const pad=n=>String(n).padStart(3,'0');
@@ -19,5 +20,6 @@ for(const week of weeks){
  }
 }
 export {books,references,cards};
+for(const lesson of lessons) if(firstWeek[lesson.number]){lesson.deepDive=firstWeek[lesson.number];lesson.reading=firstWeek[lesson.number].reading;lesson.quiz=firstWeekQuizzes[lesson.number].map(([q,a])=>({q,a}));}
 export {lessons};
 export const catalog={version:'2026-10-21',tracks,books,references,weeks,lessons};

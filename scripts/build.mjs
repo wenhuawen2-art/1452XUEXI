@@ -6,7 +6,7 @@ import sharp from 'sharp';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const dist=path.join(root,'dist');
 fs.mkdirSync(dist,{recursive:true});
-for(const file of ['index.html','style.css','app.js','favicon.svg']) fs.copyFileSync(path.join(root,'web',file),path.join(dist,file));
+for(const file of ['index.html','style.css','form.css','app.js','favicon.svg']) fs.copyFileSync(path.join(root,'web',file),path.join(dist,file));
 fs.writeFileSync(path.join(dist,'data.json'),JSON.stringify(catalog));
 fs.writeFileSync(path.join(dist,'.nojekyll'),'');
 const diagramDir=path.join(dist,'diagrams');fs.mkdirSync(diagramDir,{recursive:true});
