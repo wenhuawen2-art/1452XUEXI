@@ -1,0 +1,16 @@
+{
+  "name": "learning-diary",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/validate.mjs",
+    "push:notion": "node scripts/push-notion.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.0"
+  }
+}

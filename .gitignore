@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env*
+!.env.example
+.local/
+output/
+*.epub
+*.mobi
+*.pdf
+*.log
+.playwright-cli/
