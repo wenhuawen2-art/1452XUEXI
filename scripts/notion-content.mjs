@@ -11,7 +11,10 @@ export function lessonBlocks(l,sources=[],site='https://wenhuawen2-art.github.io
  ...(l.deepDive?.sections||[]).flatMap(([name,text])=>[heading(name),para(text)]),
  heading('跨书联系'),para(l.cross),heading(l.quiz.length+'道自测'),para('先在纸上或下面写下答案，再展开参考答案。把答错的题号和错因记在学习笔记中。'),
  ...l.quiz.map((q,i)=>({object:'block',type:'toggle',toggle:{rich_text:richText((i+1)+'. '+q.q),children:[para('参考答案：'+q.a)]}})),
- heading('今天的练习'),para(l.exercise),para('达标标准：'+l.rubric),heading('我的学习笔记'),para('在这里记录自己的答案、作业与错题。'),
+ heading('今天的练习'),para(l.exercise),para('达标标准：'+l.rubric+'；学习记录建议至少'+l.exerciseMinChars+'字。'),
+ ...(l.companionReadings?.length?[heading('可选章节补读（不计入日课时长）'),...l.companionReadings.flatMap(c=>[para(c.title+'：'+c.guide),para('阅读检查：'+c.question+'\n参考方向：'+c.answer)])]:[]),
+ ...(l.assessmentId?[para('阶段测验：完成本阶段后，在手机网页“复习”进入阶段'+l.assessmentId+'，另安排35—50分钟完成20题。')]:[]),
+ heading('我的学习笔记'),para('在这里记录自己的答案、作业与错题。'),
  heading('出处与补充资料'),para(l.reading),para(l.sourceNote),...(l.externalReferences||[]).map(r=>para(r.title+'：'+r.url)),
  para('手机网页版：'+site.replace(/\/?$/,'/')+'?day='+l.number),
  {object:'block',type:'to_do',to_do:{rich_text:richText('已完成：自测至少答对6/8题，并按达标标准完成练习后勾选'),checked:false}}];
@@ -23,13 +26,15 @@ export async function verifyLesson(client,id,lesson,expectedSources){
  if(blocks.filter(x=>x.type==='toggle').length!==lesson.quiz.length)throw Error('自测题回读数量不符');
  if(!blocks.some(x=>x.type==='image'))throw Error('图解回读缺失');
  const teaching=blocks.filter(x=>x.type==='paragraph').map(x=>plain(x.paragraph.rich_text));
+ for(const text of [lesson.goal,lesson.lead,lesson.concept,lesson.cross,lesson.exercise,lesson.reading,lesson.sourceNote])if(!teaching.includes(text))throw Error('课程正文或作业回读不一致');
  for(const [,text] of lesson.deepDive?.sections||[])if(!teaching.includes(text))throw Error('课程讲解回读不完整');
  const quotes=blocks.filter(x=>x.type==='quote').map(x=>plain(x.quote.rich_text));
  if(quotes.length!==expectedSources.length||quotes.some((text,i)=>text!==expectedSources[i].text))throw Error('原文节选回读不完整');
- for(const toggle of blocks.filter(x=>x.type==='toggle')){
+ for(const [i,toggle] of blocks.filter(x=>x.type==='toggle').entries()){
+  if(plain(toggle.toggle.rich_text)!==(i+1)+'. '+lesson.quiz[i].q)throw Error('自测题目回读不一致');
   if(!toggle.has_children)throw Error('自测答案缺失');
   const children=await client.children(toggle.id);
-  if(!children.some(x=>x.type==='paragraph'&&plain(x.paragraph.rich_text).startsWith('参考答案：')))throw Error('自测参考答案回读缺失');
+  if(!children.some(x=>x.type==='paragraph'&&plain(x.paragraph.rich_text)==='参考答案：'+lesson.quiz[i].a))throw Error('自测参考答案回读不一致');
  }
  return {blocks:blocks.length,questions:lesson.quiz.length,sources:quotes.length,complete:checks[0].to_do.checked,completedAt:checks[0].last_edited_time};
 }

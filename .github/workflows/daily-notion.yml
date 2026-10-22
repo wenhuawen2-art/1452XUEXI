@@ -1,8 +1,8 @@
 name: Push daily Notion lesson
 on:
   schedule:
-    - cron: '7,37 23 * * *'
-    - cron: '17 0 * * *'
+    - cron: '0,30 23 * * *'
+    - cron: '15 0 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -30,6 +30,7 @@ jobs:
           NOTION_PARENT_ID: ${{ secrets.NOTION_PARENT_ID }}
           SITE_URL: https://wenhuawen2-art.github.io/1452XUEXI/
           NOTION_MODE: ${{ inputs.mode }}
+          COURSE_START_DATE: ${{ vars.COURSE_START_DATE }}
         run: |
           if [ "$NOTION_MODE" = "check" ]; then
             node scripts/push-notion.mjs --check

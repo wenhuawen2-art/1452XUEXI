@@ -63,5 +63,5 @@ for(let i=0;i<order.length;i++){
  console.log(JSON.stringify({book:id,parts:parts.length,created:createdCount,verified:true}));
 }
 // Private page URLs are navigation metadata; no source text or personal notes are exported.
-fs.writeFileSync(path.join(root,'content','book-source-links.json'),JSON.stringify(Object.fromEntries(Object.entries(index.books).map(([id,b])=>[id,{url:b.url,title:b.title,parts:b.parts.map(p=>({start:p.start,end:p.end,url:'https://www.notion.so/'+p.id.replaceAll('-','')}))}])),null,2)+'\n');
+fs.writeFileSync(path.join(root,'content','book-source-links.json'),JSON.stringify(Object.fromEntries(Object.entries(index.books).map(([id,b])=>[id,{url:b.url,title:b.title,parts:b.parts.map(p=>({start:p.start,end:p.end,sha256:p.sha256,url:'https://www.notion.so/'+p.id.replaceAll('-','')}))}])),null,2)+'\n');
 console.log(JSON.stringify({completed:true,books:Object.keys(index.books).length,libraryUrl:'https://www.notion.so/'+library.id.replaceAll('-','')}));

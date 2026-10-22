@@ -1,0 +1,3084 @@
+{
+  "8": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c1",
+      "start": 375,
+      "end": 441,
+      "characters": 2758,
+      "label": "思考，快与慢 · 第1章 一张愤怒的脸和一道乘法题",
+      "prompt": "围绕“快思考与慢核对”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "9": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c11",
+      "start": 1786,
+      "end": 1813,
+      "characters": 2473,
+      "label": "思考，快与慢 · 第11章 锚定效应在生活中随处可见",
+      "prompt": "围绕“锚定效应”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "10": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c12",
+      "start": 1838,
+      "end": 1892,
+      "characters": 2282,
+      "label": "思考，快与慢 · 第12章 科学地利用可得性启发法",
+      "prompt": "围绕“可得性偏差”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "11": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c34",
+      "start": 4947,
+      "end": 4990,
+      "characters": 2267,
+      "label": "思考，快与慢 · 第34章 善用框架效应，让生活更美好",
+      "prompt": "围绕“框架效应”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "12": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c1",
+      "start": 375,
+      "end": 403,
+      "characters": 1119,
+      "label": "思考，快与慢 · 第1章 一张愤怒的脸和一道乘法题",
+      "prompt": "围绕“快思考与慢核对”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c11",
+      "start": 1786,
+      "end": 1799,
+      "characters": 946,
+      "label": "思考，快与慢 · 第11章 锚定效应在生活中随处可见",
+      "prompt": "围绕“锚定效应”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c12",
+      "start": 1838,
+      "end": 1859,
+      "characters": 949,
+      "label": "思考，快与慢 · 第12章 科学地利用可得性启发法",
+      "prompt": "围绕“可得性偏差”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c34",
+      "start": 4947,
+      "end": 4974,
+      "characters": 941,
+      "label": "思考，快与慢 · 第34章 善用框架效应，让生活更美好",
+      "prompt": "围绕“框架效应”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "13": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c11",
+      "start": 1786,
+      "end": 1803,
+      "characters": 1388,
+      "label": "思考，快与慢 · 第11章 锚定效应在生活中随处可见",
+      "prompt": "围绕“锚定效应”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c34",
+      "start": 4947,
+      "end": 4978,
+      "characters": 1381,
+      "label": "思考，快与慢 · 第34章 善用框架效应，让生活更美好",
+      "prompt": "围绕“框架效应”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "14": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c1",
+      "start": 375,
+      "end": 403,
+      "characters": 1119,
+      "label": "思考，快与慢 · 第1章 一张愤怒的脸和一道乘法题",
+      "prompt": "围绕“快思考与慢核对”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c12",
+      "start": 1838,
+      "end": 1860,
+      "characters": 950,
+      "label": "思考，快与慢 · 第12章 科学地利用可得性启发法",
+      "prompt": "围绕“可得性偏差”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "15": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c14",
+      "start": 2186,
+      "end": 2214,
+      "characters": 1066,
+      "label": "思考，快与慢 · 第14章 猜一下，汤姆的专业是什么？",
+      "prompt": "围绕“基准率”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "16": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c24",
+      "start": 3523,
+      "end": 3569,
+      "characters": 1719,
+      "label": "思考，快与慢 · 第24章 乐观主义是一柄双刃剑",
+      "prompt": "围绕“幸存者偏差”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "17": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c17",
+      "start": 2619,
+      "end": 2649,
+      "characters": 1829,
+      "label": "思考，快与慢 · 第17章 所有表现都会回归平均值",
+      "prompt": "围绕“均值回归”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "18": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c2",
+      "start": 253,
+      "end": 274,
+      "characters": 2542,
+      "label": "周期 · 周期的特征",
+      "prompt": "围绕“情景而非单点预测”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "19": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c14",
+      "start": 2186,
+      "end": 2203,
+      "characters": 871,
+      "label": "思考，快与慢 · 第14章 猜一下，汤姆的专业是什么？",
+      "prompt": "围绕“基准率”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c24",
+      "start": 3523,
+      "end": 3534,
+      "characters": 907,
+      "label": "思考，快与慢 · 第24章 乐观主义是一柄双刃剑",
+      "prompt": "围绕“幸存者偏差”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c17",
+      "start": 2619,
+      "end": 2625,
+      "characters": 1103,
+      "label": "思考，快与慢 · 第17章 所有表现都会回归平均值",
+      "prompt": "围绕“均值回归”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c2",
+      "start": 253,
+      "end": 267,
+      "characters": 873,
+      "label": "周期 · 周期的特征",
+      "prompt": "围绕“情景而非单点预测”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "20": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c24",
+      "start": 3523,
+      "end": 3538,
+      "characters": 1377,
+      "label": "思考，快与慢 · 第24章 乐观主义是一柄双刃剑",
+      "prompt": "围绕“幸存者偏差”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c2",
+      "start": 253,
+      "end": 270,
+      "characters": 1554,
+      "label": "周期 · 周期的特征",
+      "prompt": "围绕“情景而非单点预测”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "21": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c14",
+      "start": 2186,
+      "end": 2207,
+      "characters": 996,
+      "label": "思考，快与慢 · 第14章 猜一下，汤姆的专业是什么？",
+      "prompt": "围绕“基准率”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c17",
+      "start": 2619,
+      "end": 2625,
+      "characters": 1103,
+      "label": "思考，快与慢 · 第17章 所有表现都会回归平均值",
+      "prompt": "围绕“均值回归”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "22": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c26",
+      "start": 3787,
+      "end": 3832,
+      "characters": 2455,
+      "label": "思考，快与慢 · 第26章 更人性化的前景理论",
+      "prompt": "围绕“损失厌恶”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "23": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c32",
+      "start": 4623,
+      "end": 4670,
+      "characters": 2605,
+      "label": "思考，快与慢 · 第32章 心理账户是如何影响我们的选择的？",
+      "prompt": "围绕“沉没成本”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "24": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c20",
+      "start": 3050,
+      "end": 3068,
+      "characters": 607,
+      "label": "思考，快与慢 · 第20章 未来是不可预测的",
+      "prompt": "围绕“过度自信与校准”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "25": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c35",
+      "start": 5108,
+      "end": 5144,
+      "characters": 2510,
+      "label": "思考，快与慢 · 第35章 体验效用与决策效用的不一致",
+      "prompt": "围绕“经历与记忆”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "26": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c26",
+      "start": 3787,
+      "end": 3807,
+      "characters": 995,
+      "label": "思考，快与慢 · 第26章 更人性化的前景理论",
+      "prompt": "围绕“损失厌恶”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c32",
+      "start": 4623,
+      "end": 4629,
+      "characters": 938,
+      "label": "思考，快与慢 · 第32章 心理账户是如何影响我们的选择的？",
+      "prompt": "围绕“沉没成本”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c20",
+      "start": 3050,
+      "end": 3068,
+      "characters": 607,
+      "label": "思考，快与慢 · 第20章 未来是不可预测的",
+      "prompt": "围绕“过度自信与校准”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c35",
+      "start": 5108,
+      "end": 5127,
+      "characters": 1028,
+      "label": "思考，快与慢 · 第35章 体验效用与决策效用的不一致",
+      "prompt": "围绕“经历与记忆”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "27": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c32",
+      "start": 4623,
+      "end": 4640,
+      "characters": 1434,
+      "label": "思考，快与慢 · 第32章 心理账户是如何影响我们的选择的？",
+      "prompt": "围绕“沉没成本”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c35",
+      "start": 5108,
+      "end": 5129,
+      "characters": 1319,
+      "label": "思考，快与慢 · 第35章 体验效用与决策效用的不一致",
+      "prompt": "围绕“经历与记忆”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "28": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c26",
+      "start": 3787,
+      "end": 3807,
+      "characters": 995,
+      "label": "思考，快与慢 · 第26章 更人性化的前景理论",
+      "prompt": "围绕“损失厌恶”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c20",
+      "start": 3050,
+      "end": 3068,
+      "characters": 607,
+      "label": "思考，快与慢 · 第20章 未来是不可预测的",
+      "prompt": "围绕“过度自信与校准”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "29": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 542,
+      "end": 563,
+      "characters": 2390,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“资产负债表”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "30": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c3",
+      "start": 934,
+      "end": 965,
+      "characters": 2253,
+      "label": "手把手教你读财报 · 第三章　资本市场追捧的表——利润表",
+      "prompt": "围绕“利润表”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "31": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c4",
+      "start": 1157,
+      "end": 1176,
+      "characters": 2242,
+      "label": "手把手教你读财报 · 第四章　事关存亡的表——现金流量表",
+      "prompt": "围绕“现金流量表”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "32": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1271,
+      "end": 1296,
+      "characters": 2264,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“三表勾稽”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "33": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 542,
+      "end": 552,
+      "characters": 1085,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“资产负债表”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c3",
+      "start": 934,
+      "end": 940,
+      "characters": 899,
+      "label": "手把手教你读财报 · 第三章　资本市场追捧的表——利润表",
+      "prompt": "围绕“利润表”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c4",
+      "start": 1157,
+      "end": 1166,
+      "characters": 922,
+      "label": "手把手教你读财报 · 第四章　事关存亡的表——现金流量表",
+      "prompt": "围绕“现金流量表”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1271,
+      "end": 1280,
+      "characters": 866,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“三表勾稽”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "34": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c3",
+      "start": 934,
+      "end": 952,
+      "characters": 1484,
+      "label": "手把手教你读财报 · 第三章　资本市场追捧的表——利润表",
+      "prompt": "围绕“利润表”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1271,
+      "end": 1285,
+      "characters": 1482,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“三表勾稽”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "35": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 542,
+      "end": 552,
+      "characters": 1085,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“资产负债表”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c4",
+      "start": 1157,
+      "end": 1167,
+      "characters": 1034,
+      "label": "手把手教你读财报 · 第四章　事关存亡的表——现金流量表",
+      "prompt": "围绕“现金流量表”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "36": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c4",
+      "start": 1157,
+      "end": 1176,
+      "characters": 2242,
+      "label": "手把手教你读财报 · 第四章　事关存亡的表——现金流量表",
+      "prompt": "围绕“利润与现金”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "37": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c4",
+      "start": 1096,
+      "end": 1139,
+      "characters": 2319,
+      "label": "手把手教你读财报 · 第四章　事关存亡的表——现金流量表",
+      "prompt": "围绕“自由现金流”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "38": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 579,
+      "end": 613,
+      "characters": 2272,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“折旧与维护投入”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "39": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c4",
+      "start": 1115,
+      "end": 1150,
+      "characters": 2213,
+      "label": "手把手教你读财报 · 第四章　事关存亡的表——现金流量表",
+      "prompt": "围绕“一次性现金”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "40": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c4",
+      "start": 1157,
+      "end": 1166,
+      "characters": 922,
+      "label": "手把手教你读财报 · 第四章　事关存亡的表——现金流量表",
+      "prompt": "围绕“利润与现金”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c4",
+      "start": 1096,
+      "end": 1105,
+      "characters": 888,
+      "label": "手把手教你读财报 · 第四章　事关存亡的表——现金流量表",
+      "prompt": "围绕“自由现金流”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 579,
+      "end": 591,
+      "characters": 916,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“折旧与维护投入”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c4",
+      "start": 1115,
+      "end": 1136,
+      "characters": 855,
+      "label": "手把手教你读财报 · 第四章　事关存亡的表——现金流量表",
+      "prompt": "围绕“一次性现金”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "41": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c4",
+      "start": 1096,
+      "end": 1117,
+      "characters": 1347,
+      "label": "手把手教你读财报 · 第四章　事关存亡的表——现金流量表",
+      "prompt": "围绕“自由现金流”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c4",
+      "start": 1115,
+      "end": 1141,
+      "characters": 1417,
+      "label": "手把手教你读财报 · 第四章　事关存亡的表——现金流量表",
+      "prompt": "围绕“一次性现金”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "42": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c4",
+      "start": 1157,
+      "end": 1167,
+      "characters": 1034,
+      "label": "手把手教你读财报 · 第四章　事关存亡的表——现金流量表",
+      "prompt": "围绕“利润与现金”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 579,
+      "end": 592,
+      "characters": 1088,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“折旧与维护投入”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "43": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 368,
+      "end": 399,
+      "characters": 2238,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“现金可用性”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "44": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 471,
+      "end": 496,
+      "characters": 2263,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“存货与应收质量”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "45": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 768,
+      "end": 786,
+      "characters": 2239,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“债务期限错配”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "46": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c6",
+      "start": 1556,
+      "end": 1560,
+      "characters": 201,
+      "label": "手把手教你读财报 · 第六章　所有者权益变动表和财报附注",
+      "prompt": "围绕“附注与表外承诺”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "47": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 368,
+      "end": 380,
+      "characters": 981,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“现金可用性”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 471,
+      "end": 480,
+      "characters": 1014,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“存货与应收质量”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 768,
+      "end": 774,
+      "characters": 851,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“债务期限错配”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c6",
+      "start": 1556,
+      "end": 1560,
+      "characters": 201,
+      "label": "手把手教你读财报 · 第六章　所有者权益变动表和财报附注",
+      "prompt": "围绕“附注与表外承诺”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "48": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 471,
+      "end": 483,
+      "characters": 1308,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“存货与应收质量”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c6",
+      "start": 1556,
+      "end": 1560,
+      "characters": 201,
+      "label": "手把手教你读财报 · 第六章　所有者权益变动表和财报附注",
+      "prompt": "围绕“附注与表外承诺”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "49": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 368,
+      "end": 380,
+      "characters": 981,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“现金可用性”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c2",
+      "start": 768,
+      "end": 776,
+      "characters": 1073,
+      "label": "手把手教你读财报 · 第二章　投资高手关心的表——资产负债表",
+      "prompt": "围绕“债务期限错配”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "50": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c8",
+      "start": 1819,
+      "end": 1849,
+      "characters": 2222,
+      "label": "手把手教你读财报 · 第八章　欺诈与反欺诈",
+      "prompt": "围绕“异常是线索”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "51": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c3",
+      "start": 951,
+      "end": 982,
+      "characters": 2234,
+      "label": "手把手教你读财报 · 第三章　资本市场追捧的表——利润表",
+      "prompt": "围绕“收入确认”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "52": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c6",
+      "start": 1534,
+      "end": 1560,
+      "characters": 1685,
+      "label": "手把手教你读财报 · 第六章　所有者权益变动表和财报附注",
+      "prompt": "围绕“关联交易”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "53": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-c7",
+      "start": 1034,
+      "end": 1082,
+      "characters": 2338,
+      "label": "格雷厄姆精选集 · 第7章 迈向科学的证券分析",
+      "prompt": "围绕“反证更新”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "54": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c8",
+      "start": 1819,
+      "end": 1827,
+      "characters": 940,
+      "label": "手把手教你读财报 · 第八章　欺诈与反欺诈",
+      "prompt": "围绕“异常是线索”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c3",
+      "start": 951,
+      "end": 964,
+      "characters": 1009,
+      "label": "手把手教你读财报 · 第三章　资本市场追捧的表——利润表",
+      "prompt": "围绕“收入确认”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c6",
+      "start": 1534,
+      "end": 1544,
+      "characters": 869,
+      "label": "手把手教你读财报 · 第六章　所有者权益变动表和财报附注",
+      "prompt": "围绕“关联交易”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "graham",
+      "chapterId": "graham-c7",
+      "start": 1034,
+      "end": 1048,
+      "characters": 983,
+      "label": "格雷厄姆精选集 · 第7章 迈向科学的证券分析",
+      "prompt": "围绕“反证更新”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "55": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c3",
+      "start": 951,
+      "end": 967,
+      "characters": 1450,
+      "label": "手把手教你读财报 · 第三章　资本市场追捧的表——利润表",
+      "prompt": "围绕“收入确认”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "graham",
+      "chapterId": "graham-c7",
+      "start": 1034,
+      "end": 1060,
+      "characters": 1484,
+      "label": "格雷厄姆精选集 · 第7章 迈向科学的证券分析",
+      "prompt": "围绕“反证更新”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "56": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c8",
+      "start": 1819,
+      "end": 1828,
+      "characters": 953,
+      "label": "手把手教你读财报 · 第八章　欺诈与反欺诈",
+      "prompt": "围绕“异常是线索”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c6",
+      "start": 1534,
+      "end": 1547,
+      "characters": 978,
+      "label": "手把手教你读财报 · 第六章　所有者权益变动表和财报附注",
+      "prompt": "围绕“关联交易”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "57": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1337,
+      "end": 1381,
+      "characters": 2263,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“利润率”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "58": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1369,
+      "end": 1391,
+      "characters": 2253,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“资产周转”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "59": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1381,
+      "end": 1409,
+      "characters": 2304,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“杜邦拆解”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "60": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 184,
+      "end": 195,
+      "characters": 2237,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“增量资本回报”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "61": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1337,
+      "end": 1354,
+      "characters": 854,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“利润率”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1369,
+      "end": 1381,
+      "characters": 949,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“资产周转”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1381,
+      "end": 1388,
+      "characters": 891,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“杜邦拆解”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 184,
+      "end": 186,
+      "characters": 941,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“增量资本回报”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "62": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1369,
+      "end": 1386,
+      "characters": 1401,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“资产周转”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 184,
+      "end": 191,
+      "characters": 1377,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“增量资本回报”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "63": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1337,
+      "end": 1360,
+      "characters": 955,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“利润率”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1381,
+      "end": 1389,
+      "characters": 1117,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“杜邦拆解”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "64": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 176,
+      "end": 181,
+      "characters": 2282,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“可服务市场”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "65": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p2-c1",
+      "start": 539,
+      "end": 544,
+      "characters": 1186,
+      "label": "怎样选择成长股 · 第一章 保守型投资的第一个要素:生产、市场营销、研究和财务技能的优势",
+      "prompt": "围绕“竞争优势证据”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "66": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1992",
+      "start": 19086,
+      "end": 19146,
+      "characters": 2225,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1992",
+      "prompt": "围绕“每股成长”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "67": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 184,
+      "end": 195,
+      "characters": 2237,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“定价权”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "68": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 176,
+      "end": 177,
+      "characters": 1187,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“可服务市场”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p2-c1",
+      "start": 539,
+      "end": 541,
+      "characters": 1146,
+      "label": "怎样选择成长股 · 第一章 保守型投资的第一个要素:生产、市场营销、研究和财务技能的优势",
+      "prompt": "围绕“竞争优势证据”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1992",
+      "start": 19086,
+      "end": 19106,
+      "characters": 854,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1992",
+      "prompt": "围绕“每股成长”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 184,
+      "end": 186,
+      "characters": 941,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“定价权”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "69": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p2-c1",
+      "start": 539,
+      "end": 544,
+      "characters": 1186,
+      "label": "怎样选择成长股 · 第一章 保守型投资的第一个要素:生产、市场营销、研究和财务技能的优势",
+      "prompt": "围绕“竞争优势证据”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 184,
+      "end": 191,
+      "characters": 1377,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“定价权”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "70": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 176,
+      "end": 177,
+      "characters": 1187,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“可服务市场”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1992",
+      "start": 19086,
+      "end": 19109,
+      "characters": 979,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1992",
+      "prompt": "围绕“每股成长”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "71": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c2",
+      "start": 141,
+      "end": 150,
+      "characters": 1459,
+      "label": "怎样选择成长股 · 第二章 “闲聊”的作用",
+      "prompt": "围绕“闲聊法”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "72": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 172,
+      "end": 177,
+      "characters": 2551,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“能力与诚信”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "73": [
+    {
+      "bookId": "duan",
+      "chapterId": "duan-v2-c3",
+      "start": 2251,
+      "end": 2286,
+      "characters": 2349,
+      "label": "投资的本质＋段永平传 · 第三章 风云再起，步步高集团下金蛋",
+      "prompt": "围绕“组织文化”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "74": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c10",
+      "start": 492,
+      "end": 497,
+      "characters": 2334,
+      "label": "怎样选择成长股 · 第十章 如何找到成长股",
+      "prompt": "围绕“调研偏差”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "75": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c2",
+      "start": 141,
+      "end": 144,
+      "characters": 907,
+      "label": "怎样选择成长股 · 第二章 “闲聊”的作用",
+      "prompt": "围绕“闲聊法”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 172,
+      "end": 173,
+      "characters": 935,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“能力与诚信”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "duan",
+      "chapterId": "duan-v2-c3",
+      "start": 2251,
+      "end": 2253,
+      "characters": 880,
+      "label": "投资的本质＋段永平传 · 第三章 风云再起，步步高集团下金蛋",
+      "prompt": "围绕“组织文化”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c10",
+      "start": 492,
+      "end": 494,
+      "characters": 960,
+      "label": "怎样选择成长股 · 第十章 如何找到成长股",
+      "prompt": "围绕“调研偏差”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "76": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 172,
+      "end": 175,
+      "characters": 1364,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“能力与诚信”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c10",
+      "start": 492,
+      "end": 496,
+      "characters": 1464,
+      "label": "怎样选择成长股 · 第十章 如何找到成长股",
+      "prompt": "围绕“调研偏差”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "77": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c2",
+      "start": 141,
+      "end": 145,
+      "characters": 1024,
+      "label": "怎样选择成长股 · 第二章 “闲聊”的作用",
+      "prompt": "围绕“闲聊法”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "duan",
+      "chapterId": "duan-v2-c3",
+      "start": 2251,
+      "end": 2254,
+      "characters": 1092,
+      "label": "投资的本质＋段永平传 · 第三章 风云再起，步步高集团下金蛋",
+      "prompt": "围绕“组织文化”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "78": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c6",
+      "start": 311,
+      "end": 318,
+      "characters": 2276,
+      "label": "怎样选择成长股 · 第六章 何时卖出以及何时不要卖出",
+      "prompt": "围绕“持有须重审”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "79": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c6",
+      "start": 311,
+      "end": 318,
+      "characters": 2276,
+      "label": "怎样选择成长股 · 第六章 何时卖出以及何时不要卖出",
+      "prompt": "围绕“卖出理由”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "80": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c19",
+      "start": 2863,
+      "end": 2888,
+      "characters": 2412,
+      "label": "思考，快与慢 · 第19章 “知道”的错觉",
+      "prompt": "围绕“价格与业务分开”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "81": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c5",
+      "start": 302,
+      "end": 309,
+      "characters": 1359,
+      "label": "怎样选择成长股 · 第五章 何时买进",
+      "prompt": "围绕“耐心的成本”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "82": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c6",
+      "start": 311,
+      "end": 314,
+      "characters": 1056,
+      "label": "怎样选择成长股 · 第六章 何时卖出以及何时不要卖出",
+      "prompt": "围绕“持有须重审”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c6",
+      "start": 311,
+      "end": 314,
+      "characters": 1056,
+      "label": "怎样选择成长股 · 第六章 何时卖出以及何时不要卖出",
+      "prompt": "围绕“卖出理由”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c19",
+      "start": 2863,
+      "end": 2867,
+      "characters": 1009,
+      "label": "思考，快与慢 · 第19章 “知道”的错觉",
+      "prompt": "围绕“价格与业务分开”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c5",
+      "start": 302,
+      "end": 304,
+      "characters": 953,
+      "label": "怎样选择成长股 · 第五章 何时买进",
+      "prompt": "围绕“耐心的成本”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "83": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c6",
+      "start": 311,
+      "end": 316,
+      "characters": 1442,
+      "label": "怎样选择成长股 · 第六章 何时卖出以及何时不要卖出",
+      "prompt": "围绕“卖出理由”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c5",
+      "start": 302,
+      "end": 306,
+      "characters": 1319,
+      "label": "怎样选择成长股 · 第五章 何时买进",
+      "prompt": "围绕“耐心的成本”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "84": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c6",
+      "start": 311,
+      "end": 314,
+      "characters": 1056,
+      "label": "怎样选择成长股 · 第六章 何时卖出以及何时不要卖出",
+      "prompt": "围绕“持有须重审”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c19",
+      "start": 2863,
+      "end": 2867,
+      "characters": 1009,
+      "label": "思考，快与慢 · 第19章 “知道”的错觉",
+      "prompt": "围绕“价格与业务分开”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "85": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-l4",
+      "start": 3648,
+      "end": 3659,
+      "characters": 2333,
+      "label": "格雷厄姆精选集 · 第4讲 盈利能力和股票估值（1）",
+      "prompt": "围绕“价值是区间”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "86": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-l4",
+      "start": 3657,
+      "end": 3667,
+      "characters": 2221,
+      "label": "格雷厄姆精选集 · 第4讲 盈利能力和股票估值（1）",
+      "prompt": "围绕“折现”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "87": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-l5",
+      "start": 3852,
+      "end": 3893,
+      "characters": 2390,
+      "label": "格雷厄姆精选集 · 第5讲 盈利能力和股票估值（2）",
+      "prompt": "围绕“估值倍数”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "88": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1992",
+      "start": 19106,
+      "end": 19169,
+      "characters": 2237,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1992",
+      "prompt": "围绕“敏感性分析”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "89": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-l4",
+      "start": 3648,
+      "end": 3652,
+      "characters": 1000,
+      "label": "格雷厄姆精选集 · 第4讲 盈利能力和股票估值（1）",
+      "prompt": "围绕“价值是区间”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "graham",
+      "chapterId": "graham-l4",
+      "start": 3657,
+      "end": 3660,
+      "characters": 875,
+      "label": "格雷厄姆精选集 · 第4讲 盈利能力和股票估值（1）",
+      "prompt": "围绕“折现”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "graham",
+      "chapterId": "graham-l5",
+      "start": 3852,
+      "end": 3875,
+      "characters": 853,
+      "label": "格雷厄姆精选集 · 第5讲 盈利能力和股票估值（2）",
+      "prompt": "围绕“估值倍数”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1992",
+      "start": 19106,
+      "end": 19132,
+      "characters": 875,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1992",
+      "prompt": "围绕“敏感性分析”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "90": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-l4",
+      "start": 3657,
+      "end": 3663,
+      "characters": 1423,
+      "label": "格雷厄姆精选集 · 第4讲 盈利能力和股票估值（1）",
+      "prompt": "围绕“折现”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1992",
+      "start": 19106,
+      "end": 19144,
+      "characters": 1330,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1992",
+      "prompt": "围绕“敏感性分析”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "91": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-l4",
+      "start": 3648,
+      "end": 3652,
+      "characters": 1000,
+      "label": "格雷厄姆精选集 · 第4讲 盈利能力和股票估值（1）",
+      "prompt": "围绕“价值是区间”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "graham",
+      "chapterId": "graham-l5",
+      "start": 3852,
+      "end": 3877,
+      "characters": 968,
+      "label": "格雷厄姆精选集 · 第5讲 盈利能力和股票估值（2）",
+      "prompt": "围绕“估值倍数”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "92": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-c12",
+      "start": 4874,
+      "end": 5076,
+      "characters": 2323,
+      "label": "格雷厄姆精选集 · 第12章 寻找价值被低估股票的简易方法",
+      "prompt": "围绕“安全边际”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "93": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c6",
+      "start": 506,
+      "end": 516,
+      "characters": 2205,
+      "label": "周期 · 企业盈利周期",
+      "prompt": "围绕“周期利润正常化”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "94": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p2-c4",
+      "start": 599,
+      "end": 608,
+      "characters": 1763,
+      "label": "怎样选择成长股 · 第四章 第四个要素：保守型投资的价格",
+      "prompt": "围绕“价值陷阱与质量溢价”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "95": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c24",
+      "start": 3445,
+      "end": 3461,
+      "characters": 2419,
+      "label": "思考，快与慢 · 第24章 乐观主义是一柄双刃剑",
+      "prompt": "围绕“价格隐含预期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "96": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-c12",
+      "start": 4874,
+      "end": 4916,
+      "characters": 865,
+      "label": "格雷厄姆精选集 · 第12章 寻找价值被低估股票的简易方法",
+      "prompt": "围绕“安全边际”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c6",
+      "start": 506,
+      "end": 510,
+      "characters": 983,
+      "label": "周期 · 企业盈利周期",
+      "prompt": "围绕“周期利润正常化”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p2-c4",
+      "start": 599,
+      "end": 602,
+      "characters": 1162,
+      "label": "怎样选择成长股 · 第四章 第四个要素：保守型投资的价格",
+      "prompt": "围绕“价值陷阱与质量溢价”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c24",
+      "start": 3445,
+      "end": 3451,
+      "characters": 923,
+      "label": "思考，快与慢 · 第24章 乐观主义是一柄双刃剑",
+      "prompt": "围绕“价格隐含预期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "97": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c6",
+      "start": 506,
+      "end": 512,
+      "characters": 1351,
+      "label": "周期 · 企业盈利周期",
+      "prompt": "围绕“周期利润正常化”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c24",
+      "start": 3445,
+      "end": 3455,
+      "characters": 1382,
+      "label": "思考，快与慢 · 第24章 乐观主义是一柄双刃剑",
+      "prompt": "围绕“价格隐含预期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "98": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-c12",
+      "start": 4874,
+      "end": 4936,
+      "characters": 987,
+      "label": "格雷厄姆精选集 · 第12章 寻找价值被低估股票的简易方法",
+      "prompt": "围绕“安全边际”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p2-c4",
+      "start": 599,
+      "end": 602,
+      "characters": 1162,
+      "label": "怎样选择成长股 · 第四章 第四个要素：保守型投资的价格",
+      "prompt": "围绕“价值陷阱与质量溢价”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "99": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1984",
+      "start": 12710,
+      "end": 12778,
+      "characters": 2218,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1984",
+      "prompt": "围绕“留存收益”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "100": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1984",
+      "start": 12060,
+      "end": 12194,
+      "characters": 2213,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1984",
+      "prompt": "围绕“并购与每股价值”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "101": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y2012",
+      "start": 43899,
+      "end": 43959,
+      "characters": 2217,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信2012",
+      "prompt": "围绕“分红回购增发”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "102": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y2009",
+      "start": 39717,
+      "end": 39791,
+      "characters": 2208,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信2009",
+      "prompt": "围绕“保险浮存金”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "103": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1984",
+      "start": 12710,
+      "end": 12735,
+      "characters": 856,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1984",
+      "prompt": "围绕“留存收益”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1984",
+      "start": 12060,
+      "end": 12098,
+      "characters": 853,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1984",
+      "prompt": "围绕“并购与每股价值”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y2012",
+      "start": 43899,
+      "end": 43923,
+      "characters": 859,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信2012",
+      "prompt": "围绕“分红回购增发”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y2009",
+      "start": 39717,
+      "end": 39751,
+      "characters": 863,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信2009",
+      "prompt": "围绕“保险浮存金”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "104": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1984",
+      "start": 12060,
+      "end": 12161,
+      "characters": 1300,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1984",
+      "prompt": "围绕“并购与每股价值”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y2009",
+      "start": 39717,
+      "end": 39764,
+      "characters": 1309,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信2009",
+      "prompt": "围绕“保险浮存金”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "105": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1984",
+      "start": 12710,
+      "end": 12739,
+      "characters": 967,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1984",
+      "prompt": "围绕“留存收益”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y2012",
+      "start": 43899,
+      "end": 43926,
+      "characters": 998,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信2012",
+      "prompt": "围绕“分红回购增发”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "106": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1983",
+      "start": 11225,
+      "end": 11288,
+      "characters": 2239,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1983",
+      "prompt": "围绕“所有者思维”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "107": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1996",
+      "start": 24027,
+      "end": 24091,
+      "characters": 2219,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1996",
+      "prompt": "围绕“能力圈边界”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "108": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 172,
+      "end": 177,
+      "characters": 2551,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“激励决定行为”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "109": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y2023",
+      "start": 55428,
+      "end": 55500,
+      "characters": 2203,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信2023",
+      "prompt": "围绕“诚实披露坏消息”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "110": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1983",
+      "start": 11225,
+      "end": 11248,
+      "characters": 870,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1983",
+      "prompt": "围绕“所有者思维”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1996",
+      "start": 24027,
+      "end": 24054,
+      "characters": 850,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1996",
+      "prompt": "围绕“能力圈边界”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 172,
+      "end": 173,
+      "characters": 935,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“激励决定行为”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y2023",
+      "start": 55428,
+      "end": 55457,
+      "characters": 852,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信2023",
+      "prompt": "围绕“诚实披露坏消息”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "111": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1996",
+      "start": 24027,
+      "end": 24066,
+      "characters": 1316,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1996",
+      "prompt": "围绕“能力圈边界”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y2023",
+      "start": 55428,
+      "end": 55470,
+      "characters": 1316,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信2023",
+      "prompt": "围绕“诚实披露坏消息”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "112": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1983",
+      "start": 11225,
+      "end": 11251,
+      "characters": 978,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1983",
+      "prompt": "围绕“所有者思维”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 172,
+      "end": 174,
+      "characters": 1132,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“激励决定行为”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "113": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c4",
+      "start": 366,
+      "end": 387,
+      "characters": 2335,
+      "label": "周期 · 经济周期",
+      "prompt": "围绕“经济周期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "114": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c11",
+      "start": 1062,
+      "end": 1085,
+      "characters": 2234,
+      "label": "周期 · 房地产周期",
+      "prompt": "围绕“供给周期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "115": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c4",
+      "start": 432,
+      "end": 449,
+      "characters": 2235,
+      "label": "周期 · 经济周期",
+      "prompt": "围绕“库存周期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "116": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c13",
+      "start": 1545,
+      "end": 1549,
+      "characters": 242,
+      "label": "周期 · 如何应对市场周期",
+      "prompt": "围绕“周期温度计”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "117": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c4",
+      "start": 366,
+      "end": 370,
+      "characters": 974,
+      "label": "周期 · 经济周期",
+      "prompt": "围绕“经济周期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c11",
+      "start": 1062,
+      "end": 1071,
+      "characters": 874,
+      "label": "周期 · 房地产周期",
+      "prompt": "围绕“供给周期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c4",
+      "start": 432,
+      "end": 436,
+      "characters": 874,
+      "label": "周期 · 经济周期",
+      "prompt": "围绕“库存周期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c13",
+      "start": 1545,
+      "end": 1549,
+      "characters": 242,
+      "label": "周期 · 如何应对市场周期",
+      "prompt": "围绕“周期温度计”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "118": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c11",
+      "start": 1062,
+      "end": 1079,
+      "characters": 1389,
+      "label": "周期 · 房地产周期",
+      "prompt": "围绕“供给周期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c13",
+      "start": 1545,
+      "end": 1549,
+      "characters": 242,
+      "label": "周期 · 如何应对市场周期",
+      "prompt": "围绕“周期温度计”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "119": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c4",
+      "start": 366,
+      "end": 370,
+      "characters": 974,
+      "label": "周期 · 经济周期",
+      "prompt": "围绕“经济周期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c4",
+      "start": 432,
+      "end": 438,
+      "characters": 979,
+      "label": "周期 · 经济周期",
+      "prompt": "围绕“库存周期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "120": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c7",
+      "start": 613,
+      "end": 626,
+      "characters": 2355,
+      "label": "周期 · 投资人心理和情绪钟摆",
+      "prompt": "围绕“风险偏好钟摆”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "121": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c9",
+      "start": 869,
+      "end": 887,
+      "characters": 2246,
+      "label": "周期 · 信贷周期",
+      "prompt": "围绕“信贷周期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "122": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c10",
+      "start": 1000,
+      "end": 1019,
+      "characters": 2308,
+      "label": "周期 · 不良债权周期",
+      "prompt": "围绕“流动性与偿付”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "123": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c15",
+      "start": 1625,
+      "end": 1638,
+      "characters": 2371,
+      "label": "周期 · 应对周期有局限性",
+      "prompt": "围绕“逆向需事实”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "124": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c7",
+      "start": 613,
+      "end": 616,
+      "characters": 932,
+      "label": "周期 · 投资人心理和情绪钟摆",
+      "prompt": "围绕“风险偏好钟摆”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c9",
+      "start": 869,
+      "end": 873,
+      "characters": 937,
+      "label": "周期 · 信贷周期",
+      "prompt": "围绕“信贷周期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c10",
+      "start": 1000,
+      "end": 1005,
+      "characters": 953,
+      "label": "周期 · 不良债权周期",
+      "prompt": "围绕“流动性与偿付”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c15",
+      "start": 1625,
+      "end": 1631,
+      "characters": 962,
+      "label": "周期 · 应对周期有局限性",
+      "prompt": "围绕“逆向需事实”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "125": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c9",
+      "start": 869,
+      "end": 875,
+      "characters": 1644,
+      "label": "周期 · 信贷周期",
+      "prompt": "围绕“信贷周期”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c15",
+      "start": 1625,
+      "end": 1633,
+      "characters": 1304,
+      "label": "周期 · 应对周期有局限性",
+      "prompt": "围绕“逆向需事实”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "126": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c7",
+      "start": 613,
+      "end": 618,
+      "characters": 1208,
+      "label": "周期 · 投资人心理和情绪钟摆",
+      "prompt": "围绕“风险偏好钟摆”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c10",
+      "start": 1000,
+      "end": 1005,
+      "characters": 953,
+      "label": "周期 · 不良债权周期",
+      "prompt": "围绕“流动性与偿付”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "127": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c3",
+      "start": 747,
+      "end": 772,
+      "characters": 2207,
+      "label": "以交易为生（第2版） · 第3章 经典图表分析法",
+      "prompt": "围绕“趋势的边界”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "128": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c5",
+      "start": 1345,
+      "end": 1372,
+      "characters": 2245,
+      "label": "以交易为生（第2版） · 第5章 成交量和时间",
+      "prompt": "围绕“成交量”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "129": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c4",
+      "start": 873,
+      "end": 898,
+      "characters": 2201,
+      "label": "以交易为生（第2版） · 第4章 计算机化的技术分析",
+      "prompt": "围绕“指标与参数”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "130": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c1",
+      "start": 322,
+      "end": 345,
+      "characters": 2213,
+      "label": "以交易为生（第2版） · 第1章 个体心理",
+      "prompt": "围绕“交易成本”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "131": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c3",
+      "start": 747,
+      "end": 754,
+      "characters": 905,
+      "label": "以交易为生（第2版） · 第3章 经典图表分析法",
+      "prompt": "围绕“趋势的边界”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c5",
+      "start": 1345,
+      "end": 1353,
+      "characters": 888,
+      "label": "以交易为生（第2版） · 第5章 成交量和时间",
+      "prompt": "围绕“成交量”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c4",
+      "start": 873,
+      "end": 882,
+      "characters": 867,
+      "label": "以交易为生（第2版） · 第4章 计算机化的技术分析",
+      "prompt": "围绕“指标与参数”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c1",
+      "start": 322,
+      "end": 328,
+      "characters": 936,
+      "label": "以交易为生（第2版） · 第1章 个体心理",
+      "prompt": "围绕“交易成本”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "132": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c5",
+      "start": 1345,
+      "end": 1359,
+      "characters": 1344,
+      "label": "以交易为生（第2版） · 第5章 成交量和时间",
+      "prompt": "围绕“成交量”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c1",
+      "start": 322,
+      "end": 331,
+      "characters": 1308,
+      "label": "以交易为生（第2版） · 第1章 个体心理",
+      "prompt": "围绕“交易成本”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "133": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c3",
+      "start": 747,
+      "end": 755,
+      "characters": 996,
+      "label": "以交易为生（第2版） · 第3章 经典图表分析法",
+      "prompt": "围绕“趋势的边界”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c4",
+      "start": 873,
+      "end": 883,
+      "characters": 1019,
+      "label": "以交易为生（第2版） · 第4章 计算机化的技术分析",
+      "prompt": "围绕“指标与参数”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "134": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c7",
+      "start": 1842,
+      "end": 1866,
+      "characters": 2348,
+      "label": "以交易为生（第2版） · 第7章 交易系统",
+      "prompt": "围绕“系统完整性”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "135": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c11",
+      "start": 2742,
+      "end": 2772,
+      "characters": 2257,
+      "label": "以交易为生（第2版） · 第11章 保持良好的记录习惯",
+      "prompt": "围绕“回测未来函数”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "136": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c7",
+      "start": 1850,
+      "end": 1871,
+      "characters": 2230,
+      "label": "以交易为生（第2版） · 第7章 交易系统",
+      "prompt": "围绕“样本外验证”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "137": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c11",
+      "start": 2888,
+      "end": 2918,
+      "characters": 2221,
+      "label": "以交易为生（第2版） · 第11章 保持良好的记录习惯",
+      "prompt": "围绕“交易日记”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "138": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c7",
+      "start": 1842,
+      "end": 1855,
+      "characters": 908,
+      "label": "以交易为生（第2版） · 第7章 交易系统",
+      "prompt": "围绕“系统完整性”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c11",
+      "start": 2742,
+      "end": 2755,
+      "characters": 863,
+      "label": "以交易为生（第2版） · 第11章 保持良好的记录习惯",
+      "prompt": "围绕“回测未来函数”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c7",
+      "start": 1850,
+      "end": 1858,
+      "characters": 883,
+      "label": "以交易为生（第2版） · 第7章 交易系统",
+      "prompt": "围绕“样本外验证”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c11",
+      "start": 2888,
+      "end": 2900,
+      "characters": 892,
+      "label": "以交易为生（第2版） · 第11章 保持良好的记录习惯",
+      "prompt": "围绕“交易日记”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "139": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c11",
+      "start": 2742,
+      "end": 2761,
+      "characters": 1319,
+      "label": "以交易为生（第2版） · 第11章 保持良好的记录习惯",
+      "prompt": "围绕“回测未来函数”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c11",
+      "start": 2888,
+      "end": 2907,
+      "characters": 1301,
+      "label": "以交易为生（第2版） · 第11章 保持良好的记录习惯",
+      "prompt": "围绕“交易日记”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "140": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c7",
+      "start": 1842,
+      "end": 1856,
+      "characters": 1094,
+      "label": "以交易为生（第2版） · 第7章 交易系统",
+      "prompt": "围绕“系统完整性”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c7",
+      "start": 1850,
+      "end": 1860,
+      "characters": 952,
+      "label": "以交易为生（第2版） · 第7章 交易系统",
+      "prompt": "围绕“样本外验证”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "141": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c9",
+      "start": 2447,
+      "end": 2467,
+      "characters": 2289,
+      "label": "以交易为生（第2版） · 第9章 风险管理",
+      "prompt": "围绕“单笔风险预算”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "142": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c12",
+      "start": 1208,
+      "end": 1217,
+      "characters": 2343,
+      "label": "周期 · 市场周期——集周期于一身",
+      "prompt": "围绕“相关性”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "143": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c10",
+      "start": 2622,
+      "end": 2646,
+      "characters": 2285,
+      "label": "以交易为生（第2版） · 第10章 实践细节",
+      "prompt": "围绕“止损非保险”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "144": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c1",
+      "start": 371,
+      "end": 376,
+      "characters": 375,
+      "label": "以交易为生（第2版） · 第1章 个体心理",
+      "prompt": "围绕“亏损纪律”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "145": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c9",
+      "start": 2447,
+      "end": 2455,
+      "characters": 864,
+      "label": "以交易为生（第2版） · 第9章 风险管理",
+      "prompt": "围绕“单笔风险预算”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c12",
+      "start": 1208,
+      "end": 1211,
+      "characters": 932,
+      "label": "周期 · 市场周期——集周期于一身",
+      "prompt": "围绕“相关性”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c10",
+      "start": 2622,
+      "end": 2631,
+      "characters": 882,
+      "label": "以交易为生（第2版） · 第10章 实践细节",
+      "prompt": "围绕“止损非保险”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c1",
+      "start": 371,
+      "end": 376,
+      "characters": 375,
+      "label": "以交易为生（第2版） · 第1章 个体心理",
+      "prompt": "围绕“亏损纪律”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "146": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c12",
+      "start": 1208,
+      "end": 1213,
+      "characters": 1428,
+      "label": "周期 · 市场周期——集周期于一身",
+      "prompt": "围绕“相关性”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c1",
+      "start": 371,
+      "end": 376,
+      "characters": 375,
+      "label": "以交易为生（第2版） · 第1章 个体心理",
+      "prompt": "围绕“亏损纪律”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "147": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c9",
+      "start": 2447,
+      "end": 2458,
+      "characters": 1198,
+      "label": "以交易为生（第2版） · 第9章 风险管理",
+      "prompt": "围绕“单笔风险预算”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c10",
+      "start": 2622,
+      "end": 2632,
+      "characters": 1020,
+      "label": "以交易为生（第2版） · 第10章 实践细节",
+      "prompt": "围绕“止损非保险”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "148": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-c7",
+      "start": 1038,
+      "end": 1094,
+      "characters": 2299,
+      "label": "格雷厄姆精选集 · 第7章 迈向科学的证券分析",
+      "prompt": "围绕“研究问题先行”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "149": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c2",
+      "start": 140,
+      "end": 150,
+      "characters": 1594,
+      "label": "怎样选择成长股 · 第二章 “闲聊”的作用",
+      "prompt": "围绕“资料分层”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "150": [
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1362,
+      "end": 1389,
+      "characters": 2245,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“五年数据”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "151": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 160,
+      "end": 164,
+      "characters": 2598,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“论点与反证”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "152": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-c7",
+      "start": 1038,
+      "end": 1059,
+      "characters": 909,
+      "label": "格雷厄姆精选集 · 第7章 迈向科学的证券分析",
+      "prompt": "围绕“研究问题先行”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c2",
+      "start": 140,
+      "end": 144,
+      "characters": 1042,
+      "label": "怎样选择成长股 · 第二章 “闲聊”的作用",
+      "prompt": "围绕“资料分层”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1362,
+      "end": 1375,
+      "characters": 895,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“五年数据”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 160,
+      "end": 161,
+      "characters": 1060,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“论点与反证”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "153": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c2",
+      "start": 140,
+      "end": 146,
+      "characters": 1407,
+      "label": "怎样选择成长股 · 第二章 “闲聊”的作用",
+      "prompt": "围绕“资料分层”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c3",
+      "start": 160,
+      "end": 162,
+      "characters": 1949,
+      "label": "怎样选择成长股 · 第三章 买进哪支股票",
+      "prompt": "围绕“论点与反证”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "154": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-c7",
+      "start": 1038,
+      "end": 1060,
+      "characters": 1178,
+      "label": "格雷厄姆精选集 · 第7章 迈向科学的证券分析",
+      "prompt": "围绕“研究问题先行”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "tang",
+      "chapterId": "tang-c5",
+      "start": 1362,
+      "end": 1377,
+      "characters": 998,
+      "label": "手把手教你读财报 · 第五章　财报的综合阅读及分析",
+      "prompt": "围绕“五年数据”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "155": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1996",
+      "start": 23274,
+      "end": 23337,
+      "characters": 2204,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1996",
+      "prompt": "围绕“可审计备忘录”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "156": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-l6",
+      "start": 3928,
+      "end": 3934,
+      "characters": 934,
+      "label": "格雷厄姆精选集 · 第6讲 单只股票与整体指数的投资",
+      "prompt": "围绕“估值与仓位”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "157": [
+    {
+      "bookId": "duan",
+      "chapterId": "duan-v1-c1",
+      "start": 127,
+      "end": 149,
+      "characters": 2463,
+      "label": "投资的本质＋段永平传 · 第一章 股票投资本身就是一个难度很大的游戏",
+      "prompt": "围绕“不行动”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "158": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c19",
+      "start": 2859,
+      "end": 2882,
+      "characters": 2219,
+      "label": "思考，快与慢 · 第19章 “知道”的错觉",
+      "prompt": "围绕“过程与运气”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "159": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1996",
+      "start": 23274,
+      "end": 23300,
+      "characters": 859,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1996",
+      "prompt": "围绕“可审计备忘录”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "graham",
+      "chapterId": "graham-l6",
+      "start": 3928,
+      "end": 3932,
+      "characters": 892,
+      "label": "格雷厄姆精选集 · 第6讲 单只股票与整体指数的投资",
+      "prompt": "围绕“估值与仓位”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "duan",
+      "chapterId": "duan-v1-c1",
+      "start": 127,
+      "end": 140,
+      "characters": 1066,
+      "label": "投资的本质＋段永平传 · 第一章 股票投资本身就是一个难度很大的游戏",
+      "prompt": "围绕“不行动”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c19",
+      "start": 2859,
+      "end": 2863,
+      "characters": 886,
+      "label": "思考，快与慢 · 第19章 “知道”的错觉",
+      "prompt": "围绕“过程与运气”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "160": [
+    {
+      "bookId": "graham",
+      "chapterId": "graham-l6",
+      "start": 3928,
+      "end": 3934,
+      "characters": 934,
+      "label": "格雷厄姆精选集 · 第6讲 单只股票与整体指数的投资",
+      "prompt": "围绕“估值与仓位”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c19",
+      "start": 2859,
+      "end": 2867,
+      "characters": 1433,
+      "label": "思考，快与慢 · 第19章 “知道”的错觉",
+      "prompt": "围绕“过程与运气”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "161": [
+    {
+      "bookId": "buffett",
+      "chapterId": "buffett-y1996",
+      "start": 23274,
+      "end": 23303,
+      "characters": 986,
+      "label": "巴菲特致合伙人及股东的信 · 巴菲特致股东的信1996",
+      "prompt": "围绕“可审计备忘录”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "duan",
+      "chapterId": "duan-v1-c1",
+      "start": 127,
+      "end": 140,
+      "characters": 1066,
+      "label": "投资的本质＋段永平传 · 第一章 股票投资本身就是一个难度很大的游戏",
+      "prompt": "围绕“不行动”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "162": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c7",
+      "start": 1842,
+      "end": 1866,
+      "characters": 2348,
+      "label": "以交易为生（第2版） · 第7章 交易系统",
+      "prompt": "围绕“双轨方法”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "163": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c18",
+      "start": 1891,
+      "end": 1912,
+      "characters": 2213,
+      "label": "周期 · 周期精要",
+      "prompt": "围绕“知识地图”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "164": [
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c11",
+      "start": 519,
+      "end": 524,
+      "characters": 1050,
+      "label": "怎样选择成长股 · 第十一章 汇总与结论",
+      "prompt": "围绕“结业答辩”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "165": [
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c38",
+      "start": 5359,
+      "end": 5390,
+      "characters": 2414,
+      "label": "思考，快与慢 · 第38章 思考生活",
+      "prompt": "围绕“持续学习”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "166": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c7",
+      "start": 1842,
+      "end": 1855,
+      "characters": 908,
+      "label": "以交易为生（第2版） · 第7章 交易系统",
+      "prompt": "围绕“双轨方法”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c18",
+      "start": 1891,
+      "end": 1898,
+      "characters": 983,
+      "label": "周期 · 周期精要",
+      "prompt": "围绕“知识地图”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c11",
+      "start": 519,
+      "end": 520,
+      "characters": 998,
+      "label": "怎样选择成长股 · 第十一章 汇总与结论",
+      "prompt": "围绕“结业答辩”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c38",
+      "start": 5359,
+      "end": 5374,
+      "characters": 942,
+      "label": "思考，快与慢 · 第38章 思考生活",
+      "prompt": "围绕“持续学习”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "167": [
+    {
+      "bookId": "marks",
+      "chapterId": "marks-c18",
+      "start": 1891,
+      "end": 1902,
+      "characters": 1359,
+      "label": "周期 · 周期精要",
+      "prompt": "围绕“知识地图”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "kahneman",
+      "chapterId": "kahneman-c38",
+      "start": 5359,
+      "end": 5380,
+      "characters": 1506,
+      "label": "思考，快与慢 · 第38章 思考生活",
+      "prompt": "围绕“持续学习”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ],
+  "168": [
+    {
+      "bookId": "elder",
+      "chapterId": "elder-c7",
+      "start": 1842,
+      "end": 1856,
+      "characters": 1094,
+      "label": "以交易为生（第2版） · 第7章 交易系统",
+      "prompt": "围绕“双轨方法”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    },
+    {
+      "bookId": "fisher",
+      "chapterId": "fisher-p1-c11",
+      "start": 519,
+      "end": 520,
+      "characters": 998,
+      "label": "怎样选择成长股 · 第十一章 汇总与结论",
+      "prompt": "围绕“结业答辩”读这一段：划出作者的判断、支持它的事实和适用条件；再用本课例题检验，写一项原文没有直接证明的推论。",
+      "focusMatched": true
+    }
+  ]
+}

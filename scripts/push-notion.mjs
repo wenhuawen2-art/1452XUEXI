@@ -3,6 +3,7 @@ import {parentId,dateBjt,dayMarker,selectNext} from './notion-core.mjs';
 import {createNotionClient,para,heading,plain,titleOf} from './notion-client.mjs';
 import {lessonBlocks,verifyLesson} from './notion-content.mjs';
 import {getSources} from './notion-sources.mjs';
+import {validateRelease} from './release.mjs';
 
 const parent=process.env.NOTION_PARENT_ID||parentId;
 const site=process.env.SITE_URL||'https://wenhuawen2-art.github.io/1452XUEXI/';
@@ -35,13 +36,20 @@ async function run(){
   const verified=await verifyLesson(client,page.id,lesson,sources);
   console.log(JSON.stringify({mode,created:!existed,verified,url:'https://www.notion.so/'+page.id.replaceAll('-',''),countsAsOfficialProgress:false}));return;
  }
+ validateRelease();
+ const start=process.env.COURSE_START_DATE;
+ if(!/^\d{4}-\d{2}-\d{2}$/.test(start||''))throw Error('正式开课日期尚未配置');
+ if(dateBjt()<start){console.log(JSON.stringify({action:'wait',reason:'尚未到正式开课日期',start}));return}
  const coursePages=pages.filter(x=>/第\d{3}天/.test(x.title)).sort((a,b)=>Number(b.title.match(/第(\d{3})天/)[1])-Number(a.title.match(/第(\d{3})天/)[1]));
  const seen=new Set();for(const p of coursePages){const n=p.title.match(/第(\d{3})天/)[1];if(seen.has(n))throw Error('发现重复课程编号，停止自动推进');seen.add(n)}
+ if(coursePages.length&&Number(coursePages[0].title.match(/第(\d{3})天/)[1])!==coursePages.length)throw Error('正式课程编号存在缺口，停止推进');
  if(coursePages.length){
   const page=coursePages[0],blocks=await client.children(page.id),checks=blocks.filter(x=>x.type==='to_do'&&plain(x.to_do.rich_text).startsWith('已完成：'));
   if(checks.length!==1)throw Error('已有课程缺少唯一完成勾选');
   page.complete=checks[0].to_do.checked;page.last_edited_time=checks[0].last_edited_time;
   if(blocks.length<25)throw Error('已有课程可能不完整，未创建下一课');
+  const current=lessons[Number(page.title.match(/第(\d{3})天/)[1])-1];
+  await verifyLesson(client,page.id,current,await getSources(client,parent,current.number));
  }
  const decision=selectNext(pages,dateBjt());
  if(decision.action!=='create'){console.log(JSON.stringify({decision}));return}

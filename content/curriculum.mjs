@@ -6,6 +6,10 @@ import {caseAnswers} from './case-answers.mjs';
 import {expandedWeek1} from './expanded-week1.mjs';
 import {firstWeekDiagrams} from './first-week-diagrams.mjs';
 import {readingRanges} from './reading-ranges.mjs';
+import {completeCourse} from './complete-course.mjs';
+import coverage from './coverage.json' with {type:'json'};
+import {extraReferences} from './references-extra.mjs';
+import {makeAssessments,finalProject} from './assessments.mjs';
 
 export const tracks=['认知与概率','企业与财报','竞争与成长','价值与估值','周期与市场','交易与风险'];
 const pad=n=>String(n).padStart(3,'0');
@@ -46,5 +50,16 @@ for(const lesson of lessons.slice(0,7))lesson.diagram=firstWeekDiagrams[lesson.n
 for(const lesson of lessons.slice(0,7))lesson.sourceSelections=readingRanges[lesson.number];
 lessons[0].deepDive.sections.push(['读原文时也要保留判断','本课节选中的部分句子是编者对成功投资者的概括。它们提出了研究企业的方向，却不足以证明集中投入对每个新手都合适，也不能推出好企业在任何价格都值得买。价格趋势是否可用于交易，需要独立的样本检验、成本与风险约束；不能仅凭书中个别成败故事下结论。理解作者观点后，要继续追问适用条件与反例。']);
 for(const lesson of lessons) if(lesson.type==='案例'&&lesson.week>1){lesson.deepDive={sections:caseAnswers[lesson.week]};}
+completeCourse(lessons,cards,weeks);
+for(const lesson of lessons){
+ lesson.companionReadings=coverage.filter(c=>!c.coreDays.length&&c.assignedDays.includes(lesson.number));
+ lesson.externalReferences=[...(lesson.externalReferences||[]),...extraReferences.filter(r=>r.weeks.includes(lesson.week))].filter((r,i,a)=>a.findIndex(x=>x.url===r.url)===i);
+ lesson.exerciseMinChars=lesson.number<=7?[120,120,100,120,150,250,300][lesson.number-1]:lesson.type==='练习'?300:lesson.type==='案例'?200:lesson.type==='复习'?250:180;
+ lesson.publishReady=true;
+}
+const assessments=makeAssessments(lessons);
+for(const stage of assessments)lessons[stage.end-1].assessmentId=stage.id;
+lessons[167].finalProject=finalProject;
 export {lessons};
-export const catalog={version:'2026-10-21',tracks,books,references,weeks,lessons};
+export {coverage,assessments,finalProject};
+export const catalog={version:'2026-10-22',tracks,books,references:[...references,...extraReferences],weeks,lessons,coverage,assessments,finalProject};

@@ -1,6 +1,7 @@
 import {spawnSync} from 'node:child_process';
 const origin='https://github.com';
 export function credential(){
+ if(process.env.GITHUB_TOKEN)return {password:process.env.GITHUB_TOKEN};
  const r=spawnSync('git',['credential','fill'],{input:`protocol=https\nhost=github.com\n\n`,encoding:'utf8',env:{...process.env,GIT_TERMINAL_PROMPT:'0',GCM_INTERACTIVE:'never'},timeout:15000});
  if(r.status!==0)return null;
  return Object.fromEntries(r.stdout.trim().split('\n').map(s=>{let i=s.indexOf('=');return[s.slice(0,i),s.slice(i+1)]}));

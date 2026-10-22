@@ -14,3 +14,4 @@
 .chapter-list small{float:right}
 .source-button{display:grid;gap:8px;margin-top:16px!important}.source-button .pill{display:inline-block;text-decoration:none;text-align:center}.source-button small{font-size:12px}
 @media(max-width:900px){.study-steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.reading-panel input[type=range]{display:block;width:100%;accent-color:var(--green);min-height:44px}.reading-panel label{display:block;margin:12px 0}.track-card section+section{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--accent);outline-offset:3px}textarea{max-width:100%}summary{overflow-wrap:anywhere}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

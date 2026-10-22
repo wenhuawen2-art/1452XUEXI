@@ -5,11 +5,19 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
 jobs:
   heartbeat:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check daily scheduler and recover inactivity suspension
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/check-scheduler.mjs
       - name: Record public workflow heartbeat
         run: |
           mkdir -p .runtime
