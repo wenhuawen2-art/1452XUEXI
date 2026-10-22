@@ -13,6 +13,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   deploy:
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -25,7 +26,7 @@ jobs:
           cache: npm
       - name: Install Chinese fonts
         run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
-      - run: npm ci
+      - run: npm ci --registry=https://registry.npmjs.org --fetch-timeout=60000 --fetch-retries=2
       - run: npm run check && npm test && npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
