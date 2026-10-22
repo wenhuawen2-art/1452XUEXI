@@ -18,3 +18,4 @@ export function recordBelongsToCategory(record,category){
  return record.categoryId?record.categoryId===category.id:category.id==='finance';
 }
 export function categoryUrl(id,view='home'){return '?category='+encodeURIComponent(id)+'&view='+encodeURIComponent(view)}
+export function categoryExportPaths(id){const prefix=id==='finance'?'':'downloads/'+id+'/';return {courseIndexUrl:prefix+'课程总表.csv',coverageIndexUrl:prefix+'章节覆盖表.csv'}}

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {categories} from '../content/categories.mjs';
-import {categoryStorageKey,selectCategory,validateCategories,recordBelongsToCategory,categoryUrl} from '../web/category-core.js';
+import {categoryStorageKey,selectCategory,validateCategories,recordBelongsToCategory,categoryUrl,categoryExportPaths} from '../web/category-core.js';
 test('金融分类沿用原记录键和旧课数据，未知分类不冒充金融',()=>{
  assert.equal(validateCategories(categories),true);
  const finance=selectCategory(categories,'finance');assert.equal(finance.name,'金融学习卡片');
@@ -22,4 +22,6 @@ test('稳定ID、课程路径和存储空间不得重复，分类路由明确',(
  assert.throws(()=>validateCategories([...categories,{...categories[0],id:'other',storageKey:'different-key'}]));
  assert.throws(()=>validateCategories([{...categories[0],dataUrl:'../private.json'}]));
  assert.equal(categoryUrl('finance'),'?category=finance&view=home');
+ assert.equal(categoryExportPaths('finance').courseIndexUrl,'课程总表.csv');
+ assert.equal(categoryExportPaths('history').courseIndexUrl,'downloads/history/课程总表.csv');
 });
