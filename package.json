@@ -12,6 +12,7 @@
     "push:notion": "node scripts/push-notion.mjs"
   },
   "devDependencies": {
+    "libsodium-wrappers": "^0.8.4",
     "sharp": "^0.34.0"
   }
 }

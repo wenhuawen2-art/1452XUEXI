@@ -1,4 +1,4 @@
-export const parentId='4006d16937f780fbba67d661de18e0c7';
+export const parentId='400e722b7e15802d9111decadde03688';
 export const dateBjt=(date=new Date())=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(date);
 export const dayMarker=n=>'第'+String(n).padStart(3,'0')+'天';
 export function selectNext(pages,today){

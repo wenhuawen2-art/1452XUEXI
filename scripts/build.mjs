@@ -8,14 +8,21 @@ const dist=path.join(root,'dist');
 fs.mkdirSync(dist,{recursive:true});
 for(const file of ['index.html','style.css','form.css','learning.css','app.js','favicon.svg']) fs.copyFileSync(path.join(root,'web',file),path.join(dist,file));
 const chapterIndex=JSON.parse(fs.readFileSync(path.join(root,'content','chapter-index.json'),'utf8'));
-fs.writeFileSync(path.join(dist,'data.json'),JSON.stringify({...catalog,chapterIndex}));
+const sourceLinks=JSON.parse(fs.readFileSync(path.join(root,'content','book-source-links.json'),'utf8'));
+fs.writeFileSync(path.join(dist,'data.json'),JSON.stringify({...catalog,chapterIndex,sourceLinks}));
 fs.writeFileSync(path.join(dist,'.nojekyll'),'');
 const diagramDir=path.join(dist,'diagrams');fs.mkdirSync(diagramDir,{recursive:true});
 const xml=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
 for(const lesson of catalog.lessons){
- const items=(lesson.diagram.kind==='table'?lesson.diagram.items.map(x=>x[0]):lesson.diagram.items).slice(0,4);
- const width=1200,height=220+items.length*105;
- const rows=items.map((s,i)=>`<rect x="90" y="${150+i*105}" width="1020" height="74" rx="18" fill="${i%2?'#e5efe9':'#f7f2e5'}"/><circle cx="145" cy="${187+i*105}" r="22" fill="#24534b"/><text x="145" y="${195+i*105}" text-anchor="middle" font-size="22" fill="#fff">${i+1}</text><text x="200" y="${197+i*105}" font-size="25" fill="#173c36">${xml(String(s).slice(0,36))}</text>`).join('');
+ const items=(lesson.diagram.kind==='table'?lesson.diagram.items.map(x=>x[0]+'｜'+x[1]):lesson.diagram.items);
+ const width=1200;let y=150;
+ const rows=items.map((s,i)=>{
+  const chars=Array.from(String(s)),lines=[];for(let k=0;k<chars.length;k+=33)lines.push(chars.slice(k,k+33).join(''));
+  const rowHeight=Math.max(82,34+lines.length*36);
+  const row=`<rect x="70" y="${y}" width="1060" height="${rowHeight}" rx="16" fill="${i%2?'#e5efe9':'#f7f2e5'}"/><circle cx="116" cy="${y+rowHeight/2}" r="22" fill="#24534b"/><text x="116" y="${y+rowHeight/2+8}" text-anchor="middle" font-size="22" fill="#fff">${i+1}</text>${lines.map((line,j)=>`<text x="162" y="${y+36+j*36}" font-size="26" fill="#173c36">${xml(line)}</text>`).join('')}`;
+  y+=rowHeight+18;return row;
+ }).join('');
+ const height=y+35;
  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}"><rect width="100%" height="100%" rx="28" fill="#fffdf8"/><text x="90" y="75" font-size="20" fill="#9b7947">第 ${String(lesson.number).padStart(3,'0')} 天 · ${xml(lesson.type)}</text><text x="90" y="118" font-size="32" font-weight="bold" fill="#173c36">${xml(lesson.title)}</text>${rows}</svg>`;
  await sharp(Buffer.from(svg)).png().toFile(path.join(diagramDir,`day-${String(lesson.number).padStart(3,'0')}.png`));
 }

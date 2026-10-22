@@ -12,4 +12,5 @@
 .chapter-list summary{cursor:pointer;font-weight:700}
 .chapter-list div{border-bottom:1px solid var(--line);padding:5px 0;font-size:13px}
 .chapter-list small{float:right}
+.source-button{display:grid;gap:8px;margin-top:16px!important}.source-button .pill{display:inline-block;text-decoration:none;text-align:center}.source-button small{font-size:12px}
 @media(max-width:900px){.study-steps{grid-template-columns:repeat(2,minmax(0,1fr))}}

@@ -1,58 +1,56 @@
-import fs from 'node:fs';
 import {lessons} from '../content/curriculum.mjs';
 import {parentId,dateBjt,dayMarker,selectNext} from './notion-core.mjs';
+import {createNotionClient,para,heading,plain,titleOf} from './notion-client.mjs';
+import {lessonBlocks,verifyLesson} from './notion-content.mjs';
+import {getSources} from './notion-sources.mjs';
 
-const token=process.env.NOTION_TOKEN;
 const parent=process.env.NOTION_PARENT_ID||parentId;
 const site=process.env.SITE_URL||'https://wenhuawen2-art.github.io/1452XUEXI/';
-if(!token){console.error('NOTION_TOKEN 未配置；未创建任何页面。');process.exit(2)}
-const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-async function api(method,url,body){
- for(let attempt=0;attempt<4;attempt++){
-  const res=await fetch('https://api.notion.com/v1'+url,{method,headers:{Authorization:'Bearer '+token,'Notion-Version':'2022-06-28','Content-Type':'application/json'},body:body?JSON.stringify(body):undefined});
-  if(res.ok)return res.json();
-  const txt=await res.text();
-  if((res.status===429||res.status>=500)&&attempt<3){await sleep(Math.min(15000,1000*2**attempt));continue}
-  throw Error(method+' '+url+' HTTP '+res.status+' '+txt.slice(0,500));
- }
+const mode=process.argv.includes('--check')?'check':process.argv.includes('--sample')?'sample':'push';
+const client=createNotionClient();
+async function ensureNav(pages){
+ let nav=pages.find(x=>x.title==='八本书学习导航');if(nav)return nav;
+ return client.createPage(parent,'八本书学习导航',[heading('168天学习入口'),para('24周：每周四天新课、一天案例、一天练习、一天复盘。每课包含原文精读、讲解、图解、自测与作业。'),para('手机网页：'+site),para('完整原书在同级“原文书库”，需登录本人的 Notion。每日课程会引用相关原文节选。'),para('正式开课日期将在内容验收后确定。目前首周可试学，后续课程仍在扩写；每日自动推送未启用。'),para('正式推进以每日页面“已完成”勾选为准。当天完成，次日继续；漏学保留当前课。网页本机记录不会自动同步到 Notion。')],'📚');
 }
-async function children(id){let cursor,all=[];do{const u='/blocks/'+id+'/children?page_size=100'+(cursor?'&start_cursor='+encodeURIComponent(cursor):'');const r=await api('GET',u);all.push(...r.results);cursor=r.has_more?r.next_cursor:null}while(cursor);return all}
-const plain=x=>(x||[]).map(v=>v.plain_text||v.text?.content||'').join('');
-const text=s=>[{type:'text',text:{content:String(s).slice(0,1900)}}];
-const para=s=>({object:'block',type:'paragraph',paragraph:{rich_text:text(s)}});
-const heading=s=>({object:'block',type:'heading_2',heading_2:{rich_text:text(s)}});
-function titleOf(page){return plain(page.properties?.title?.title||page.properties?.Name?.title||Object.values(page.properties||{}).find(x=>x.type==='title')?.title)}
-async function listPages(){const items=await children(parent);return items.filter(x=>x.type==='child_page').map(x=>({id:x.id,title:x.child_page.title,created_time:x.created_time,last_edited_time:x.last_edited_time}))}
-async function completed(id){const blocks=await children(id);const checks=blocks.filter(x=>x.type==='to_do'&&plain(x.to_do.rich_text).includes('已完成'));if(checks.length!==1)throw Error('课程页面 '+id+' 缺失唯一的完成勾选，需人工检查');return {checked:checks[0].to_do.checked,editedAt:checks[0].last_edited_time,blocks}}
-function lessonBlocks(l){const img=site.replace(/\/?$/,'/')+'diagrams/day-'+String(l.number).padStart(3,'0')+'.png';return [
- para('课程编号 '+l.id+' ｜ 建议学习 '+l.minutes+' 分钟 ｜ '+l.track),
- {object:'block',type:'image',image:{type:'external',external:{url:img}}},
- ...(l.studySteps?[heading('今天的 30—45 分钟怎么学'),...l.studySteps.map(([name,min])=>para(name+'｜约 '+min+' 分钟'))]:[]),
- ...(l.readingAnchors?[heading('原书精读：私有原文书库'),para('原书完整文本不在公开网站或公开仓库。请从个人私有离线书库中检索下列章节；本页只放原创导读。'),...l.readingAnchors.flatMap(r=>[para(r.book+'｜'+r.section),para(r.note)])]:[]),
- heading('今天要学会'),para(l.goal),heading('先从生活场景开始'),para(l.lead),
- heading('概念与图解'),para(l.concept),para('容易踩的坑：'+l.pitfall),
- ...(l.deepDive?l.deepDive.sections.flatMap(s=>[heading(s[0]),para(s[1])]):[]),
- heading('跨书联系'),para(l.cross),heading(l.quiz.length+'道自测'),
- ...l.quiz.map((q,i)=>({object:'block',type:'toggle',toggle:{rich_text:text((i+1)+'. '+q.q),children:[para('参考答案：'+q.a)]}})),
- heading('今天的练习'),para(l.exercise),...(l.rubric?[para('达标标准：'+l.rubric)]:[]),heading('阅读出处与边界'),para(l.reading),para(l.sourceNote),...(l.externalReferences||[]).map(r=>para(r.title+'：'+r.url)),
- para('手机网页版：'+site.replace(/\/?$/,'/')+'?day='+l.number),
- {object:'block',type:'to_do',to_do:{rich_text:text('已完成：首周自测至少答对6/8题，并完成练习后勾选'),checked:false}}
-]}
-async function ensureNav(pages){if(pages.some(x=>x.title==='八本书学习导航'))return;const body={parent:{page_id:parent},icon:{type:'emoji',emoji:'📚'},properties:{title:{type:'title',title:text('八本书学习导航')}},children:[heading('168天学习入口'),para('学习计划：24周，每周四天新课、一天案例、一天练习、一天复盘。完成勾选在每日子页面；手机网页本机记录不与此同步。'),para('手机网页：'+site),para('每天北京时间早上7点补检；未完成则保留当前课。GitHub 调度可能延迟。'),para('课程为原创教学转述，原书、个人笔记和访问凭据不在公开仓库。')]};await api('POST','/pages',body)}
 async function run(){
- await api('GET','/pages/'+parent); // 提前确认目标父页在当前集成可见
- const pages=await listPages();
- const coursePages=pages.filter(x=>/第\d{3}天/.test(x.title)).sort((a,b)=>b.title.match(/第(\d{3})天/)[1]-a.title.match(/第(\d{3})天/)[1]);
- if(coursePages.length){const p=coursePages[0];const result=await completed(p.id);p.complete=result.checked;p.last_edited_time=result.editedAt;p.blockCount=result.blocks.length;if(p.blockCount<15)throw Error('已有课程页面内容可能不完整：'+p.title+'；不会重复创建')}
- const today=dateBjt();const decision=selectNext(pages,today);console.log(JSON.stringify({today,decision}));
- if(decision.action!=='create')return;
- if(decision.number>7)throw Error('第2—24周尚未扩写并逐章验收，停止自动推送以免把提纲当正式课程');
+ const root=await client.api('GET','/pages/'+parent);
+ if(titleOf(root)!=='学习日记')throw Error('目标父页标题不符');
+ const pages=await client.childPages(parent);
+ if(mode==='check'){console.log(JSON.stringify({ok:true,parentTitle:titleOf(root),childPages:pages.length,libraryReady:pages.some(x=>x.title==='原文书库'),scheduleChanged:false}));return}
+ if(mode==='sample'){
+  const lesson=lessons[0],sources=await getSources(client,parent,1);
+  let page=pages.find(x=>x.title.includes('｜试学D001｜'));
+  const existed=Boolean(page);
+  if(!page){await ensureNav(pages);page=await client.createPage(parent,dateBjt()+'｜试学D001｜格雷厄姆与段永平相关｜'+lesson.title,lessonBlocks(lesson,sources,site))}
+  if(existed){
+   const blocks=await client.children(page.id);
+   for(const [name,text] of lesson.deepDive.sections){
+    if(blocks.some(b=>b.type==='heading_2'&&plain(b.heading_2.rich_text)===name))continue;
+    const preceding=lesson.deepDive.sections.slice(0,lesson.deepDive.sections.findIndex(s=>s[0]===name)).map(s=>s[1]);
+    const anchor=blocks.filter(b=>b.type==='paragraph'&&preceding.includes(plain(b.paragraph.rich_text))).at(-1);
+    if(!anchor)throw Error('试学页结构已变化，未插入讲解');
+    await client.api('PATCH','/blocks/'+page.id+'/children',{after:anchor.id,children:[heading(name),para(text)]});
+   }
+  }
+  const verified=await verifyLesson(client,page.id,lesson,sources);
+  console.log(JSON.stringify({mode,created:!existed,verified,url:'https://www.notion.so/'+page.id.replaceAll('-',''),countsAsOfficialProgress:false}));return;
+ }
+ const coursePages=pages.filter(x=>/第\d{3}天/.test(x.title)).sort((a,b)=>Number(b.title.match(/第(\d{3})天/)[1])-Number(a.title.match(/第(\d{3})天/)[1]));
+ const seen=new Set();for(const p of coursePages){const n=p.title.match(/第(\d{3})天/)[1];if(seen.has(n))throw Error('发现重复课程编号，停止自动推进');seen.add(n)}
+ if(coursePages.length){
+  const page=coursePages[0],blocks=await client.children(page.id),checks=blocks.filter(x=>x.type==='to_do'&&plain(x.to_do.rich_text).startsWith('已完成：'));
+  if(checks.length!==1)throw Error('已有课程缺少唯一完成勾选');
+  page.complete=checks[0].to_do.checked;page.last_edited_time=checks[0].last_edited_time;
+  if(blocks.length<25)throw Error('已有课程可能不完整，未创建下一课');
+ }
+ const decision=selectNext(pages,dateBjt());
+ if(decision.action!=='create'){console.log(JSON.stringify({decision}));return}
+ const lesson=lessons[decision.number-1];
+ if(!lesson?.publishReady)throw Error('该日内容尚未扩写并审核，未推送提纲');
+ const sources=await getSources(client,parent,lesson.number);
  await ensureNav(pages);
- if(pages.some(x=>x.title.includes(dayMarker(decision.number))))throw Error('同编号页面已存在，停止以避免重复');
- const l=lessons[decision.number-1];const title=today+'｜'+dayMarker(l.number)+'｜'+l.books+'｜'+l.title;
- const created=await api('POST','/pages',{parent:{page_id:parent},icon:{type:'emoji',emoji:'📖'},properties:{title:{type:'title',title:text(title)}},children:lessonBlocks(l)});
- const verify=await completed(created.id);
- if(verify.blocks.length<15||verify.checked)throw Error('Notion 回读不完整；保留页面，人工核查：'+created.id);
- console.log('SUCCESS '+title+' '+created.url);
+ const created=await client.createPage(parent,dateBjt()+'｜'+dayMarker(lesson.number)+'｜'+lesson.books+'｜'+lesson.title,lessonBlocks(lesson,sources,site));
+ const verified=await verifyLesson(client,created.id,lesson,sources);
+ console.log(JSON.stringify({created:true,day:lesson.number,verified,url:created.url}));
 }
-run().catch(e=>{console.error(e.message);process.exitCode=1});
+run().catch(error=>{console.error(error.message);process.exitCode=1});

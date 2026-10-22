@@ -4,6 +4,12 @@ on:
     - cron: '7,37 23 * * *'
     - cron: '17 0 * * *'
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'check validates access; sample creates/reuses a trial lesson'
+        type: choice
+        options: [check, sample, push]
+        default: check
 permissions:
   contents: read
 concurrency:
@@ -11,7 +17,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   push:
-    if: vars.ENABLE_NOTION_PUSH == 'true'
+    if: vars.ENABLE_NOTION_PUSH == 'true' || (github.event_name == 'workflow_dispatch' && inputs.mode != 'push')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,4 +29,12 @@ jobs:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_PARENT_ID: ${{ secrets.NOTION_PARENT_ID }}
           SITE_URL: https://wenhuawen2-art.github.io/1452XUEXI/
-        run: node scripts/push-notion.mjs
+          NOTION_MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$NOTION_MODE" = "check" ]; then
+            node scripts/push-notion.mjs --check
+          elif [ "$NOTION_MODE" = "sample" ]; then
+            node scripts/push-notion.mjs --sample
+          else
+            node scripts/push-notion.mjs
+          fi

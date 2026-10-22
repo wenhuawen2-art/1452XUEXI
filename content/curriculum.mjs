@@ -4,6 +4,8 @@ import {cards} from './cards.mjs';
 import {firstWeek,firstWeekQuizzes} from './first-week.mjs';
 import {caseAnswers} from './case-answers.mjs';
 import {expandedWeek1} from './expanded-week1.mjs';
+import {firstWeekDiagrams} from './first-week-diagrams.mjs';
+import {readingRanges} from './reading-ranges.mjs';
 
 export const tracks=['认知与概率','企业与财报','竞争与成长','价值与估值','周期与市场','交易与风险'];
 const pad=n=>String(n).padStart(3,'0');
@@ -40,6 +42,9 @@ const weekOneReferences={
  4:[{title:'SEC：投资前认识风险与资金需求',url:'https://www.sec.gov/investor/alerts/13thingstoknowaboutinvesting.pdf'}]
 };
 for(const lesson of lessons.slice(0,7))lesson.externalReferences=weekOneReferences[lesson.number]||[];
+for(const lesson of lessons.slice(0,7))lesson.diagram=firstWeekDiagrams[lesson.number];
+for(const lesson of lessons.slice(0,7))lesson.sourceSelections=readingRanges[lesson.number];
+lessons[0].deepDive.sections.push(['读原文时也要保留判断','本课节选中的部分句子是编者对成功投资者的概括。它们提出了研究企业的方向，却不足以证明集中投入对每个新手都合适，也不能推出好企业在任何价格都值得买。价格趋势是否可用于交易，需要独立的样本检验、成本与风险约束；不能仅凭书中个别成败故事下结论。理解作者观点后，要继续追问适用条件与反例。']);
 for(const lesson of lessons) if(lesson.type==='案例'&&lesson.week>1){lesson.deepDive={sections:caseAnswers[lesson.week]};}
 export {lessons};
 export const catalog={version:'2026-10-21',tracks,books,references,weeks,lessons};
